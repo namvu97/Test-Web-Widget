@@ -57,10 +57,12 @@
 
 <script>
     var botmanWidget = {
-        chatServer: 'https://wenewifi-amela-dev.herokuapp.com/botman',
+        //chatServer: 'https://wenewifi-amela-dev.herokuapp.com/botman',
+        chatServer: 'http://127.0.0.1:8000/botman',
         frameEndpoint: 'chat.html'
     };
 </script>
 <script id="botmanWidget" src='js/widget.js'></script>
+<script>( function(){  window.onload = function(e){  botmanChatWidget.whisper('welcome');botmanChatWidget.close(); } } )();</script>
 </body>
 </html>
