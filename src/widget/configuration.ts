@@ -16,7 +16,7 @@ export const defaultConfiguration: IConfiguration = {
     headerTextColor: '#FFF',
     bubbleBackground: '#408591',
     bubbleAvatarUrl: '',
-    desktopHeight: 450,
+    desktopHeight: '100vh',
     desktopWidth: 370,
     mobileHeight: '100%',
     mobileWidth: '300px',

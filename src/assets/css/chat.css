@@ -10,12 +10,12 @@ html, body {
     font-size: 14px;
     margin: 0;
     padding: 0;
-
+    background-size: cover;
 }
 
 /* M E S S A G E S */
 #messageArea {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .chat {

@@ -61,7 +61,7 @@ export default class Widget extends Component<any, IWidgetState> {
         const {conf, isMobile} = props;
         const {isChatOpen, pristine} = state;
         const wrapperWidth = {width: isMobile ? conf.mobileWidth : conf.desktopWidth};
-        const desktopHeight = (window.innerHeight - 100 < conf.desktopHeight) ? window.innerHeight - 90 : conf.desktopHeight;
+        const desktopHeight = `calc(${conf.desktopHeight} - 50px)`;
         conf.wrapperHeight = desktopHeight;
 
         let wrapperStyle;
