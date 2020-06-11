@@ -1,8 +1,8 @@
 
 export const desktopWrapperStyle = {
     position: 'fixed',
-    bottom: '0px',
-    right: '0px',
+    bottom: '20px',
+    right: '20px',
     zIndex: 2147483647,
     borderRadius: '5px',
     boxSizing: 'content-box',
