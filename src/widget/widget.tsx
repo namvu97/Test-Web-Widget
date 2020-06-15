@@ -36,6 +36,13 @@ export default class Widget extends Component<any, IWidgetState> {
         if (typeof this.props.conf.init === 'function') {
             this.props.conf.init(window.botmanChatWidget);
         }
+
+        this.setUpStart();
+    }
+
+    private setUpStart() {
+        window.botmanChatWidget.whisper('welcome');
+        window.botmanChatWidget.close(); 
     }
 
     private setupEcho() {
