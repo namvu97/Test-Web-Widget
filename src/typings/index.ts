@@ -110,7 +110,7 @@ export interface IConfiguration {
     headerTextColor: string,
     bubbleBackground: string,
     bubbleAvatarUrl: string,
-    desktopHeight: number,
+    desktopHeight: string,
     desktopWidth: number,
     mobileHeight: string,
     mobileWidth: string,
@@ -119,7 +119,7 @@ export interface IConfiguration {
     aboutText: string,
     chatId: string,
     userId: string,
-    wrapperHeight?: number,
+    wrapperHeight?: string,
     alwaysUseFloatingButton: boolean,
 
     useEcho: boolean,

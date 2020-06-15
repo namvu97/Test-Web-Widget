@@ -45,10 +45,9 @@ function injectChat() {
     const conf = {...defaultConfiguration, ...settings, ...dynamicConf};
 
     const iFrameSrc = conf.frameEndpoint;
-
     render(
         <Widget
-            isMobile={window.screen.width < 500}
+            isMobile={window.screen.width < 900 && window.screen.height < 900}
             iFrameSrc={iFrameSrc}
             conf={conf}
         />,
