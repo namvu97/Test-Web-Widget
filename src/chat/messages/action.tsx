@@ -25,6 +25,7 @@ export default class Action extends MessageType {
     }
 
     performAction(action: IAction) {
+
         let isLink = action.text.indexOf('data-href');
         if( isLink >= 0 ) 
         {
